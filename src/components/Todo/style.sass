@@ -1,0 +1,55 @@
+.todo-add-container
+    display: flex
+    flex-direction: column
+    align-items: center
+
+
+
+.todo-add-flex-container
+    display: flex
+    flex-direction: column
+    background-color: #FCFCFC
+    max-width: 1000px
+    margin: 100px 10px 0px 10px
+    border-radius: 10px
+    box-shadow: 1px 1px 30px #000000
+    padding: 20px 30px 100px 30px
+    h1
+        margin: 0
+
+@media (max-width: 500px)
+    .todo-add-flex-container
+        max-width: 300px
+        display: flex
+        justify-content: center
+
+.todo-add_form
+    margin: 0 auto
+    input
+        width: 545px
+        padding: 7px 10px 7px
+        font-size: 16px
+        border: 2px solid black
+
+    button
+        padding: 7px 50px 7px
+        font-size: 16px
+        border: 2px solid black
+        color: #FCFCFC
+        cursor: pointer
+        background-color: #6699CC
+        font-weight: 500
+        margin-left: 1px
+        &:active
+            background-color: #003399
+
+@media (max-width: 629px)
+    .todo-add_form
+        input
+            width: 290px
+        button
+            padding: 6px 25px 6px
+            font-size: 12px
+            margin-top: 3px
+
+
